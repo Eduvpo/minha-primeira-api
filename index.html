@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca CEP</title>
+</head>
+<body>
+    <div id="topo">
+        <img src="loca.png"> <br> <h1>Busca CEP</h1>
+    </div>
+    <input type="number" id="buscaCep" placeholder="Digite o CEP">
+    <button id="btnBuscar">Buscar</button><br>
+    <div id="titulos">
+        <p class="texto">ENDEREÇO</p>
+        <p class="texto">CIDADE</p>
+        <p class="texto">ESTADO</p>
+        <p class="texto">CEP</p>
+    </div>
+    <main>
+        <div class="dados" id="logradouro"></div>
+        <div class="dados" id="cidade"></div>
+        <div class="dados" id="estado"></div>
+        <div class="dados" id="cep"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
