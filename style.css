@@ -67,7 +67,7 @@ button{
     gap: 130px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
     main{
         width: 500px;
         height: 100px;  
@@ -99,6 +99,6 @@ button{
         margin-top: -10%;
     }
     button{
-        margin-left: 90%;
+        margin-left: 40%;
     }
 }
